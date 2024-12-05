@@ -31,6 +31,7 @@ public class Historico {
     }
 
     private void QuerSalvar() {
+        leitura.nextLine(); //Tive que colocar para limpar o Scannar!!
         String resposta = "";
         while (true) {
             System.out.println("\n\nDeseja salvar o histórico?\n" +
