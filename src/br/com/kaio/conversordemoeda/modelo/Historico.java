@@ -31,25 +31,22 @@ public class Historico {
     }
 
     private void QuerSalvar() {
-        leitura.nextLine(); //Tive que colocar para limpar o Scannar!!
+        leitura.nextLine(); // Tive que colocar para limpar o Scanner!!
         String resposta = "";
-        while (true) {
+        while (!resposta.equalsIgnoreCase("2")) {
             System.out.println("\n\nDeseja salvar o histórico?\n" +
                     "1 - Salvar!     2 - Voltar ao Menu!");
 
             resposta = leitura.nextLine().trim();
 
-            if (resposta.trim().equalsIgnoreCase("1")) {
+            if (resposta.equalsIgnoreCase("1")) {
                 SalvandoHistorico();
-                break;
+                resposta = "2";
 
             } else if (resposta.equalsIgnoreCase("2")) {
-                leitura.nextLine();
                 for (int i = 0; i < 15; i++) {
                     System.out.println("\n\n");
                 }
-                break;
-
             } else {
                 System.out.println("\nOpção inválida. Tente novamente.");
             }
@@ -57,7 +54,7 @@ public class Historico {
     }
 
     private void SalvandoHistorico(){
-        System.out.println("\nQual nome gostaria de salvar o arquivo?");
+        System.out.println("\nComo devo salvar o arquivo?");
         String nomeArquivo = leitura.nextLine().trim() + ".txt";
 
         String caminhoArquivo = System.getProperty("user.home") + "/Desktop/" + nomeArquivo;

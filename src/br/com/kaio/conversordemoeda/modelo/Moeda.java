@@ -29,6 +29,6 @@ public class Moeda {
 
     @Override
     public String toString() {
-        return valor + " " + moedaBase + " para " + resultadoDaConversao + " " + moedaAlvo + "Usando a Cotação: " + cotacao;
+        return valor + " " + moedaBase + " para " + resultadoDaConversao + " " + moedaAlvo + ". Usando a Cotação: " + cotacao;
     }
 }

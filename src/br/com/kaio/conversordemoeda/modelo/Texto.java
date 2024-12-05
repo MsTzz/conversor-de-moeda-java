@@ -33,7 +33,7 @@ public class Texto {
                         break;
                     }
                 } catch (InputMismatchException e) {
-                    System.out.println("Entrada inválida! Por favor, insira um número entre 1 e 8!\n\n");
+                    System.out.println("Entrada inválida! Por favor, insira um número entre 1 e 8!\n");
                     leitura.nextLine();
                 }
             }
