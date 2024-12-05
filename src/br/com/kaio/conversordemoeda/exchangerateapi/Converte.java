@@ -12,7 +12,7 @@ import java.net.http.HttpRequest;
 import java.net.http.HttpResponse;
 
 public class Converte {
-    private String apikey = "cf4d38a16196a10162916902";
+    private String apikey = "Coloque aqui sua chave api";
     private String url = "https://v6.exchangerate-api.com/v6/"+ apikey + "/pair/";
     private Historico historico;
 

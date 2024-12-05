@@ -61,6 +61,7 @@ public class Historico {
 
         try (FileWriter escreve = new FileWriter(caminhoArquivo)) {
             escreve.write(historicoDeConversao.toString());
+            escreve.close();
             System.out.println("\nArquivo salvo com sucesso em: " + caminhoArquivo);
 
         } catch (IOException e) {
