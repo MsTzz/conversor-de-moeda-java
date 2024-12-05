@@ -4,7 +4,7 @@ Bem-vindo ao Conversor de Moeda! Este projeto foi desenvolvido como parte do Cha
 
 ---
 
-<img src="assets/menu.png" alt="Imagem do Menu do Conversor">
+<img src="assets/Menu.png" alt="Imagem do Menu do Conversor">
 
 ---
 
