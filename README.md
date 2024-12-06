@@ -1,6 +1,6 @@
 # Conversor de Moeda 💱
 
-Bem-vindo ao Conversor de Moeda! Este projeto foi desenvolvido como parte do Challenge Conversor de Moeda, que integra a formação Iniciante em Programação da Alura na trilha ONE 7 - Oracle Next Education.
+Bem-vindo ao Conversor de Moeda! Este projeto foi desenvolvido como parte do Challenge Conversor de Moeda, que integra a formação em programação da Alura na trilha ONE 7 - Oracle Next Education.
 
 ---
 
